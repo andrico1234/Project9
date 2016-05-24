@@ -10,18 +10,44 @@
   }
 }
 
-h1, h2 {
+h1, h2, p {
   color: white;
   font-family: 'Quicksand', sans-serif;
   font-weight: 300;
   font-size: 1.3em;
 }
 
-h1 span {
+p {
+  font-size: 0.8em;
+  padding-left: 20px;
+}
+
+.strong {
   font-weight: 700;
 }
 
+button {
+  height: 26px;
+  border: none;
+  background: none;
+  text-align: right;
+  margin-left: auto;
+  padding-right: 15px;
+  img {
+    width: 20px;
+  }
+}
+
 h2 {
+}
+
+.closable-alert {
+  background: #7479BD;
+  height: 40px;
+  margin: 20px;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
 }
 
 .main-header {
@@ -78,6 +104,10 @@ nav a img {
     border-right: 1px solid #979aaa;
     margin: 10px 0;
     padding: 0 20px;
+  }
+
+  .main-content {
+    margin-left: 80px;
   }
 
   .profile-name {
