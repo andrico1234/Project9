@@ -4,13 +4,14 @@
   flex-direction: row;
   justify-content: space-between; }
   .main-nav a img {
-    width: 50px;
-    padding: 10px; }
+    width: 40px;
+    padding: 25px 25px; }
 
 h1, h2 {
   color: white;
   font-family: 'Quicksand', sans-serif;
-  font-weight: 300; }
+  font-weight: 300;
+  font-size: 1.3em; }
 
 h1 span {
   font-weight: 700; }
@@ -18,17 +19,26 @@ h1 span {
 .main-header {
   background: #7479BD;
   display: flex;
+  align-items: center;
   height: 70px; }
-  .main-header img {
-    width: 50px; }
 
 .profile-name {
   visibility: hidden;
   width: 0; }
 
 .profile-picture {
-  padding: 10px;
-  border-radius: 50%; }
+  padding: 7px;
+  border-radius: 50%;
+  height: 40px;
+  width: 40px; }
+
+nav a img {
+  opacity: 0.4; }
+
+.selected img {
+  opacity: 1;
+  border-left: 3px solid #83C891;
+  border-top-left-radius: -25px; }
 
 .site-name {
   margin: auto; }
@@ -43,15 +53,27 @@ h1 span {
     justify-content: flex-start; }
     .main-nav a {
       text-align: center; }
+    .main-nav a img {
+      padding: 20px 18px;
+      margin: 15px 0; }
+
+  .alert-icon {
+    border-right: 1px solid #979aaa;
+    margin: 10px 0;
+    padding: 0 20px; }
 
   .profile-name {
     visibility: visible;
     width: auto;
-    padding-right: 10px;
-    padding-left: 10px; }
+    padding: 0 15px;
+    margin: 0; }
+
+  .profile-picture {
+    padding: 0 20px; }
 
   .site-name {
-    width: auto;
-    margin-right: auto; } }
+    margin: 0;
+    margin-right: auto;
+    padding-left: 30px; } }
 
 /*# sourceMappingURL=application.css.map */
