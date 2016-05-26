@@ -54,6 +54,12 @@ button {
   margin: 10px 0;
 }
 
+#line-chart {
+  font-family: "Big Caslon", serif;
+  width: 400;
+  height: 100;
+}
+
 #search-bar-tab {
   display: block;
   height: 68px;
@@ -89,6 +95,10 @@ button {
   outline: none;
   background: $evenLighterPurple;
   color: white;
+}
+
+.line-chart-div {
+  width: 100%;
 }
 
 .closable-alert {
