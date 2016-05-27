@@ -31,7 +31,42 @@ var myChart = new Chart(lineChart, {
         scales: {
             yAxes: [{
                 ticks: {
-                    beginAtZero:false
+                    beginAtZero: false
+                }
+            }]
+        }
+    }
+});
+
+var barChart = document.getElementById("bar-chart");
+var myChart2 = new Chart(barChart, {
+    type: "bar",
+    data: {
+        labels: ["S", "M", "T", "W", "T", "F", "S"],
+        datasets: [
+            {
+                label: 'Purchased',
+                data: [23, 21, 30, 17, 43, 66, 76],
+                backgroundColor: "rgba(171, 174, 215, 0.6)",
+                borderWidth: 1,
+                borderColor: "rgba(171, 174, 215, 1)"
+
+            },
+            {
+                label: 'Browsed',
+                data: [70, 60, 85, 75, 90, 115, 130],
+                backgroundColor: "rgba(131, 200, 145, 0.6)",
+                borderWidth: 1,
+                borderColor: "rgba(131, 200, 145, 1)"
+
+            }
+        ]
+    },
+    options: {
+        scales: {
+            yAxes: [{
+                ticks: {
+                    beginAtZero: true
                 }
             }]
         }
