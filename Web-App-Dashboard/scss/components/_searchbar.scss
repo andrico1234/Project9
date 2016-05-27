@@ -1,0 +1,42 @@
+
+#search-bar-tab {
+  display: block;
+  height: 68px;
+  width: 100%;
+  text-align: center;
+  background: $lightGrey;
+  border: 1px solid $borderGrey;
+  padding-right: 20px;
+  position: relative;
+  @include tablet {
+      display: inline-block;
+      float: right;
+      width: 70%;
+      text-align: right;
+  }
+  .mag-icon {
+    position: absolute;
+    margin-left: 285px;
+    margin-top: 25px;
+    width: 20px;
+    z-index: 1;
+  }
+}
+
+#search-bar-one {
+  width: 300px;
+  height: 35px;
+  border-radius: 5px;
+  font-size: 0.9em;
+  color: $darkGrey;
+  padding-left: 15px;
+  border: 1px solid $borderGrey;
+  @include vertical_align;
+  transition: background .50s ease, color .50s ease;
+}
+
+#search-bar-one:hover, #search-bar-one:active, #search-bar-one:focus {
+  outline: none;
+  background: $evenLighterPurple;
+  color: white;
+}

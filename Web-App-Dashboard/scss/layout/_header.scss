@@ -1,0 +1,52 @@
+
+header h1, header h2 {
+  color: white;
+  font-family: 'Quicksand', sans-serif;
+  font-weight: 300;
+  font-size: 1.3em;
+}
+
+.main-header {
+  background: $lightPurple;
+  display: flex;
+  align-items: center;
+  height: 70px;
+}
+
+.site-name {
+  margin: auto;
+  @include tablet {
+    margin: 0;
+    margin-right: auto;
+    padding-left: 30px;
+  }
+}
+
+.profile-name {
+  visibility: hidden;
+  width: 0;
+  @include tablet {
+    visibility: visible;
+    width: auto;
+    padding: 0 20px;
+    margin: 0;
+  }
+}
+
+.profile-picture {
+  padding: 7px;
+  border-radius: 50%;
+  height: 40px;
+  width: 40px;
+  @include tablet {
+     padding: 0 20px;
+  }
+}
+
+.alert-icon {
+  @include tablet {
+    border-right: 1px solid $borderGrey;
+    margin: 10px 0;
+    padding: 0 20px;
+  }
+}
