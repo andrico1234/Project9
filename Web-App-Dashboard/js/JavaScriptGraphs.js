@@ -2,11 +2,12 @@
  * Created by Home on 26/05/2016.
  */
 
-
+// chart global options
 Chart.defaults.global.defaultFontFamily = "'Futura', 'Helvetica', 'Arial', sans-serif";
 Chart.defaults.global.defaultFontColor = "#bcbcbc";
-Chart.defaults.global.legend = false;
 
+
+// line chart start
 var lineChart = document.getElementById("line-chart");
 var myChart = new Chart(lineChart, {
 
@@ -28,6 +29,7 @@ var myChart = new Chart(lineChart, {
         }]
     },
     options: {
+        legend: false,
         scales: {
             yAxes: [{
                 ticks: {
@@ -37,7 +39,9 @@ var myChart = new Chart(lineChart, {
         }
     }
 });
+// line chart end
 
+// bar chart start
 var barChart = document.getElementById("bar-chart");
 var myChart2 = new Chart(barChart, {
     type: "bar",
@@ -72,3 +76,35 @@ var myChart2 = new Chart(barChart, {
         }
     }
 });
+// bar chart end
+
+
+// doughnut chart start
+var doughnutChart = document.getElementById("pie-chart");
+var myChart3 = new Chart(doughnutChart, {
+    type: 'doughnut',
+    data: {
+        labels: [
+            "Phones",
+            "Tablets",
+            "Desktop",
+            "Other"
+        ],
+        datasets: [{
+            data: [34, 27, 58, 19],
+            backgroundColor: [
+                "rgba(171, 174, 215, 1)",
+                "rgba(131, 200, 145, 1)",
+                '#749ebd',
+                '#bd7479'
+            ],
+            hoverBackgroundColor: [
+                "rgba(171, 174, 215, 1)",
+                "rgba(131, 200, 145, 1)",
+                '#749ebd',
+                '#bd7479'
+            ]
+        }]
+    }
+});
+// doughnut chart end
