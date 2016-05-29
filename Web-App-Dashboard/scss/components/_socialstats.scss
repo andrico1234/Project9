@@ -1,0 +1,77 @@
+
+#social-media-div {
+  height: 65vh;
+  border-bottom: 2px solid $borderGrey;
+  text-align: center;
+  width: 95%;
+  margin: 0 2.5%;
+  @include tablet {
+    height: 45vh;
+  }
+  @include desktop {
+    height: 25vh;
+  }
+  h2 {
+    color: $mediumGrey;
+  }
+  h3 {
+
+  }
+  h2 {
+    margin-right: auto;
+    font-size: 1.2em;
+  }
+}
+
+#social-media-div-flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.social-box {
+  height: 15vh;
+  width: 48%;
+  background: $lightGrey;
+  border: 2px solid $borderGrey;
+  border-radius: 5px;
+  margin-bottom: 15px;
+  @include tablet {
+    width: 32%;
+  }
+  @include desktop {
+    width: 18%;
+  }
+  > * {
+    display: inline-block;
+  }
+  img {
+    max-width: 70px;
+    width: 30%;
+    float: left;
+    @include vertical_align;
+    padding-left: 10px;
+  }
+  h3 {
+    color: $darkPurple;
+    display: block;
+    padding: 0 10px;
+    font-size: 0.9em;
+  }
+  h1 {
+    font-family: "Helvetica Neue", sans-serif;
+    font-weight: 300;
+    font-size: 1.5em;
+    color: $darkGrey;
+    margin: 0;
+    margin-top: -15px;
+    float: right;
+    padding-right: 20px;
+    @include tablet {
+      font-size: 2em;
+      padding-right: 5px;
+      float: none;
+    }
+  }
+}

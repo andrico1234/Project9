@@ -30,6 +30,8 @@ var myChart = new Chart(lineChart, {
     },
     options: {
         legend: false,
+        responsive: true,
+        maintainAspectRatio: false,
         scales: {
             yAxes: [{
                 ticks: {

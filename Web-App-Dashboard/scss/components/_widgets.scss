@@ -34,11 +34,18 @@
   align-items: center;
   h2 {
     margin-right: auto;
-    font-size: 1.2em;
+    font-size: 1em;
+    @include tablet {
+      font-size: 1.2em;
+
+    }
   }
   h3 {
     padding: 0 10px;
-    font-size: 0.9em;
+    font-size: 0.7em;
+    @include tablet {
+      font-size: 0.9em;
+    }
   }
   h2, h3 {
     color: $mediumGrey;
@@ -48,11 +55,9 @@
 .line-chart-div {
   width: 95%;
   margin: auto;
-  padding-bottom: 20px;
+  padding-bottom: 80px;
   border-bottom: 2px solid $borderGrey;
-  @include tablet {
-    padding-bottom: 40px;
-  }
+  height: 35vh;
 }
 
 .bar-chart-div {

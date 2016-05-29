@@ -44,6 +44,7 @@ header h1, header h2 {
 }
 
 .alert-icon {
+  width: 30px;
   @include tablet {
     border-right: 1px solid $borderGrey;
     margin: 10px 0;
