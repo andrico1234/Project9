@@ -34,6 +34,9 @@
   border: 1px solid $borderGrey;
   @include vertical_align;
   transition: background .50s ease, color .50s ease;
+  @include tablet {
+    margin-right: 20px;
+  }
 }
 
 #search-bar-one:hover, #search-bar-one:active, #search-bar-one:focus {

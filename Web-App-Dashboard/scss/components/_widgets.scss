@@ -6,11 +6,12 @@
 }
 
 #dashboard-tab {
-  padding: 5px 5px;
+  //padding: 5px 5px;
   text-align: center;
   display: block;
-  width: 100%;
+  width: 95%;
   height: 40px;
+  margin: auto;
   @include tablet {
     display: inline-block;
     width: 20%;
@@ -37,7 +38,6 @@
     font-size: 1em;
     @include tablet {
       font-size: 1.2em;
-
     }
   }
   h3 {
@@ -57,7 +57,7 @@
   margin: auto;
   padding-bottom: 80px;
   border-bottom: 2px solid $borderGrey;
-  height: 35vh;
+  height: 50vh;
 }
 
 .bar-chart-div {
