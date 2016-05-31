@@ -5,6 +5,7 @@
   flex-direction: row;
   justify-content: space-between;
   height: 60px;
+  z-index: 0;
   a img {
     width: 30px;
     padding: 15px 25px;
@@ -13,9 +14,11 @@
     flex-direction: column;
     width: 80px;
     flex-wrap: wrap;
-    position: absolute;
+    position: fixed;
     justify-content: flex-start;
-    height: 200vh;
+    height: 100vh;
+    overflow: scroll;
+    margin-top: -70px;
     a {
       text-align: center;
     }
@@ -23,6 +26,12 @@
       padding: 5px 25px;
       margin: 15px 0;
     }
+  }
+}
+
+nav a:first-child {
+  @include tablet {
+    padding-top: 70px;
   }
 }
 

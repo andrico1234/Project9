@@ -1,0 +1,67 @@
+#new-members-div {
+  height: 65vh;
+  border-bottom: 2px solid $borderGrey;
+  text-align: center;
+  width: 95%;
+  margin: 0 2.5%;
+  //@include tablet {
+  //  height: 45vh;
+  //}
+  //@include desktop {
+  //  height: 25vh;
+  //}
+  h2 {
+    color: $mediumGrey;
+    display: block;
+    padding: 0 10px;
+    font-size: 1.3em;
+  }
+}
+
+.new-member {
+  width: 70%;
+  height: 13%;
+  margin: auto;
+  padding-top: 12px;
+  border-bottom: 2px solid $borderGrey;
+  font-family: "Helvetica Neue", sans-serif;
+  font-weight: 300;
+  img {
+    width: 20%;
+    max-width: 50px;
+    border-radius: 10px;
+    float: left;
+  }
+}
+
+.new-members-name, .new-members-date, .new-members-email {
+  display: inline-block;
+  font-weight: 400;
+  color: $mediumGrey;
+}
+
+.new-members-name {
+  float: left;
+  padding-left: 20px;
+  font-size: 0.9em;
+  margin: 0;
+  //margin-right: 5%;
+}
+
+.new-members-date {
+  float: right;
+  font-size: 0.9em;
+  margin: 0;
+}
+
+.new-members-email {
+  padding-left: 20px;
+  float: left;
+  margin-top: 0;
+  font-size: 0.7em;
+  margin-bottom: 0;
+  a {
+    color: $lightPurple;
+    text-decoration: none;
+  }
+}

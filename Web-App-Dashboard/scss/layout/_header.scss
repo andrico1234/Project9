@@ -11,6 +11,8 @@ header h1, header h2 {
   display: flex;
   align-items: center;
   height: 70px;
+  z-index: 100;
+  position: relative;
 }
 
 .site-name {

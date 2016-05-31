@@ -18,7 +18,9 @@ header h1, header h2 {
   background: #7479BD;
   display: flex;
   align-items: center;
-  height: 70px; }
+  height: 70px;
+  z-index: 100;
+  position: relative; }
 
 .site-name {
   margin: auto; }
@@ -60,7 +62,8 @@ header h1, header h2 {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  height: 60px; }
+  height: 60px;
+  z-index: 0; }
   .main-nav a img {
     width: 30px;
     padding: 15px 25px; }
@@ -69,14 +72,20 @@ header h1, header h2 {
       flex-direction: column;
       width: 80px;
       flex-wrap: wrap;
-      position: absolute;
+      position: fixed;
       justify-content: flex-start;
-      height: 200vh; }
+      height: 100vh;
+      overflow: scroll;
+      margin-top: -70px; }
       .main-nav a {
         text-align: center; }
       .main-nav a img {
         padding: 5px 25px;
         margin: 15px 0; } }
+
+@media screen and (min-width: 768px) {
+  nav a:first-child {
+    padding-top: 70px; } }
 
 nav a img {
   opacity: 0.4; }
@@ -234,8 +243,7 @@ nav .selected img {
     #social-media-div {
       height: 25vh; } }
   #social-media-div h2 {
-    color: #8d8d8d; }
-  #social-media-div h2 {
+    color: #8d8d8d;
     margin-right: auto;
     font-size: 1.2em; }
 
@@ -287,5 +295,57 @@ nav .selected img {
         font-size: 2em;
         padding-right: 5px;
         float: none; } }
+
+#new-members-div {
+  height: 65vh;
+  border-bottom: 2px solid #ECECEC;
+  text-align: center;
+  width: 95%;
+  margin: 0 2.5%; }
+  #new-members-div h2 {
+    color: #8d8d8d;
+    display: block;
+    padding: 0 10px;
+    font-size: 1.3em; }
+
+.new-member {
+  width: 70%;
+  height: 13%;
+  margin: auto;
+  padding-top: 12px;
+  border-bottom: 2px solid #ECECEC;
+  font-family: "Helvetica Neue", sans-serif;
+  font-weight: 300; }
+  .new-member img {
+    width: 20%;
+    max-width: 50px;
+    border-radius: 10px;
+    float: left; }
+
+.new-members-name, .new-members-date, .new-members-email {
+  display: inline-block;
+  font-weight: 400;
+  color: #8d8d8d; }
+
+.new-members-name {
+  float: left;
+  padding-left: 20px;
+  font-size: 0.9em;
+  margin: 0; }
+
+.new-members-date {
+  float: right;
+  font-size: 0.9em;
+  margin: 0; }
+
+.new-members-email {
+  padding-left: 20px;
+  float: left;
+  margin-top: 0;
+  font-size: 0.7em;
+  margin-bottom: 0; }
+  .new-members-email a {
+    color: #7479BD;
+    text-decoration: none; }
 
 /*# sourceMappingURL=application.css.map */
