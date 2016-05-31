@@ -391,22 +391,51 @@ nav .selected img {
   position: absolute;
   right: -10px; }
 
-#message-user-div {
+#message-user-div, #settings-div {
   height: 385px;
   border-bottom: 2px solid #ECECEC;
   text-align: center;
-  width: 95%;
-  margin: 0 2.5%; }
-  #message-user-div h2 {
+  width: 95%; }
+  #message-user-div h2, #settings-div h2 {
     color: #8d8d8d;
     margin-right: auto;
     font-size: 1.2em; }
   @media screen and (min-width: 768px) {
-    #message-user-div {
+    #message-user-div, #settings-div {
       display: inline-block;
       width: 44.5%;
       border-right: 2px solid #ECECEC;
       padding-right: 2.5%; } }
+
+#message-user-div {
+  margin: 0 2.5%; }
+
+@media screen and (min-width: 768px) {
+  #settings-div {
+    float: right;
+    border-right: none; } }
+#settings-div button {
+  width: 40%;
+  height: 45px;
+  color: white;
+  border-radius: 5px;
+  font-size: 0.9em;
+  border: 1px solid #ECECEC;
+  margin-bottom: 20px; }
+
+#settings {
+  width: 90%;
+  margin: auto;
+  padding: 20px 0; }
+  #settings .switch-button {
+    padding-left: 20px;
+    width: 40%;
+    display: inline-block;
+    float: right;
+    margin-top: 20px;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%); }
 
 fieldset {
   border: none; }
@@ -441,11 +470,44 @@ textarea {
   padding-top: 15px;
   color: #5c5c5c;
   background: #FBFBFB; }
+  @media screen and (min-width: 768px) {
+    textarea {
+      height: 90px; } }
 
 #search-bar-two:hover, #search-bar-two:active, #search-bar-two:focus,
 textarea:hover, textarea:active, textarea:focus {
   outline: none;
   background: #abaed7;
   color: white; }
+
+strong {
+  display: inline-block;
+  font-size: 1em;
+  color: #5c5c5c;
+  float: left;
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+  margin-top: 20px; }
+  @media screen and (min-width: 768px) {
+    strong {
+      font-size: 0.8em; } }
+
+#select-timezone-label {
+  visibility: hidden; }
+
+#select-timezone {
+  min-width: 250px;
+  height: 45px;
+  margin-top: 20px;
+  width: 90%;
+  border-radius: 5px;
+  font-size: 0.9em;
+  border: 1px solid #ECECEC;
+  background: #FBFBFB;
+  color: #5c5c5c; }
+
+#save-button {
+  background: #7479BD; }
 
 /*# sourceMappingURL=application.css.map */

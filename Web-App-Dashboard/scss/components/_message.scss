@@ -1,10 +1,9 @@
 
-#message-user-div {
+#message-user-div, #settings-div {
   height: 385px;
   border-bottom: $generic-border;
   text-align: center;
   width: 95%;
-  margin: 0 2.5%;
   h2 {
     color: $mediumGrey;
     margin-right: auto;
@@ -15,6 +14,40 @@
     width: 44.5%;
     border-right: $generic-border;
     padding-right: 2.5%;
+  }
+}
+
+#message-user-div {
+  margin: 0 2.5%;
+}
+
+#settings-div {
+  @include tablet {
+    float: right;
+    border-right: none;
+  }
+  button {
+    width: 40%;
+    height: 45px;
+    color: white;
+    border-radius: 5px;
+    font-size: 0.9em;
+    border: 1px solid $borderGrey;
+    margin-bottom: 20px;
+  }
+}
+
+#settings {
+  width: 90%;
+  margin: auto;
+  padding: 20px 0;
+  .switch-button {
+    padding-left: 20px;
+    width: 40%;
+    display: inline-block;
+    float: right;
+    margin-top: 20px;
+    @include vertical_align;
   }
 }
 
@@ -55,6 +88,9 @@ textarea {
   padding-top: 15px;
   color: $darkGrey;
   background: $lightGrey;
+  @include tablet {
+    height: 90px;
+  }
 }
 
 #search-bar-two:hover, #search-bar-two:active, #search-bar-two:focus,
@@ -62,4 +98,37 @@ textarea:hover, textarea:active, textarea:focus {
   outline: none;
   background: $evenLighterPurple;
   color: white;
+}
+
+
+strong {
+  display: inline-block;
+  font-size: 1em;
+  color: $darkGrey;
+  float: left;
+  @include vertical_align;
+  margin-top: 20px;
+  @include tablet {
+    font-size: 0.8em;
+  }
+}
+
+#select-timezone-label {
+  visibility: hidden;
+}
+
+#select-timezone {
+  min-width: 250px;
+  height: 45px;
+  margin-top: 20px;
+  width: 90%;
+  border-radius: 5px;
+  font-size: 0.9em;
+  border: 1px solid $borderGrey;
+  background: $lightGrey;
+  color: $darkGrey;
+}
+
+#save-button {
+  background: $lightPurple;
 }

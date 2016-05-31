@@ -2,24 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="15d446c1-9a44-41bd-91d7-c9ac06103b12" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Web-App-Dashboard/.sass-cache/0f6354724816f391fe01c2beeb3d7370b1c08241/_index.scssc" afterPath="$PROJECT_DIR$/Web-App-Dashboard/.sass-cache/0f6354724816f391fe01c2beeb3d7370b1c08241/_index.scssc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Web-App-Dashboard/.sass-cache/0f6354724816f391fe01c2beeb3d7370b1c08241/_members.scssc" afterPath="$PROJECT_DIR$/Web-App-Dashboard/.sass-cache/0f6354724816f391fe01c2beeb3d7370b1c08241/_members.scssc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Web-App-Dashboard/.sass-cache/0f6354724816f391fe01c2beeb3d7370b1c08241/_searchbar.scssc" afterPath="$PROJECT_DIR$/Web-App-Dashboard/.sass-cache/0f6354724816f391fe01c2beeb3d7370b1c08241/_searchbar.scssc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Web-App-Dashboard/.sass-cache/0f6354724816f391fe01c2beeb3d7370b1c08241/_socialstats.scssc" afterPath="$PROJECT_DIR$/Web-App-Dashboard/.sass-cache/0f6354724816f391fe01c2beeb3d7370b1c08241/_socialstats.scssc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Web-App-Dashboard/.sass-cache/0f6354724816f391fe01c2beeb3d7370b1c08241/_widgets.scssc" afterPath="$PROJECT_DIR$/Web-App-Dashboard/.sass-cache/0f6354724816f391fe01c2beeb3d7370b1c08241/_widgets.scssc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Web-App-Dashboard/.sass-cache/965e2632a4121ee26f800c311e7656ade95af7af/_base.scssc" afterPath="$PROJECT_DIR$/Web-App-Dashboard/.sass-cache/965e2632a4121ee26f800c311e7656ade95af7af/_base.scssc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Web-App-Dashboard/.sass-cache/965e2632a4121ee26f800c311e7656ade95af7af/_variables.scssc" afterPath="$PROJECT_DIR$/Web-App-Dashboard/.sass-cache/965e2632a4121ee26f800c311e7656ade95af7af/_variables.scssc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Web-App-Dashboard/.sass-cache/0f6354724816f391fe01c2beeb3d7370b1c08241/_message.scssc" afterPath="$PROJECT_DIR$/Web-App-Dashboard/.sass-cache/0f6354724816f391fe01c2beeb3d7370b1c08241/_message.scssc" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Web-App-Dashboard/css/application.css" afterPath="$PROJECT_DIR$/Web-App-Dashboard/css/application.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Web-App-Dashboard/css/application.css.map" afterPath="$PROJECT_DIR$/Web-App-Dashboard/css/application.css.map" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Web-App-Dashboard/index.html" afterPath="$PROJECT_DIR$/Web-App-Dashboard/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Web-App-Dashboard/scss/base/_base.scss" afterPath="$PROJECT_DIR$/Web-App-Dashboard/scss/base/_base.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Web-App-Dashboard/scss/base/_variables.scss" afterPath="$PROJECT_DIR$/Web-App-Dashboard/scss/base/_variables.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Web-App-Dashboard/scss/components/_index.scss" afterPath="$PROJECT_DIR$/Web-App-Dashboard/scss/components/_index.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Web-App-Dashboard/scss/components/_members.scss" afterPath="$PROJECT_DIR$/Web-App-Dashboard/scss/components/_members.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Web-App-Dashboard/scss/components/_searchbar.scss" afterPath="$PROJECT_DIR$/Web-App-Dashboard/scss/components/_searchbar.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Web-App-Dashboard/scss/components/_socialstats.scss" afterPath="$PROJECT_DIR$/Web-App-Dashboard/scss/components/_socialstats.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Web-App-Dashboard/scss/components/_widgets.scss" afterPath="$PROJECT_DIR$/Web-App-Dashboard/scss/components/_widgets.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Web-App-Dashboard/scss/components/_message.scss" afterPath="$PROJECT_DIR$/Web-App-Dashboard/scss/components/_message.scss" />
     </list>
     <ignored path="Project9.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -40,21 +28,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Web-App-Dashboard/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="498">
-              <caret line="159" column="23" selection-start-line="159" selection-start-column="23" selection-end-line="159" selection-end-column="23" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="_base.scss" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Web-App-Dashboard/scss/base/_base.scss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="15" column="1" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
+            <state relative-caret-position="858">
+              <caret line="216" column="14" selection-start-line="216" selection-start-column="14" selection-end-line="216" selection-end-column="14" />
               <folding />
             </state>
           </provider>
@@ -63,18 +41,18 @@
       <file leaf-file-name="_members.scss" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Web-App-Dashboard/scss/components/_members.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="375">
+            <state relative-caret-position="-582">
               <caret line="25" column="24" selection-start-line="25" selection-start-column="24" selection-end-line="25" selection-end-column="24" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="_message.scss" pinned="false" current-in-tab="false">
+      <file leaf-file-name="_message.scss" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Web-App-Dashboard/scss/components/_message.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+            <state relative-caret-position="153">
+              <caret line="91" column="14" selection-start-line="91" selection-start-column="14" selection-end-line="91" selection-end-column="14" />
               <folding />
             </state>
           </provider>
@@ -400,18 +378,18 @@
       <workItem from="1464541355535" duration="731000" />
       <workItem from="1464690752737" duration="7137000" />
       <workItem from="1464700664176" duration="482000" />
-      <workItem from="1464706781388" duration="2529000" />
+      <workItem from="1464706781388" duration="6174000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="53396000" />
+    <option name="totallyTimeSpent" value="57041000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24225576" sideWeight="0.49452055" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20889595" sideWeight="0.49452055" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -745,14 +723,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Web-App-Dashboard/scss/components/_searchbar.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="528">
-          <caret line="40" column="0" selection-start-line="40" selection-start-column="0" selection-end-line="44" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Web-App-Dashboard/scss/components/_widgets.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15">
@@ -769,9 +739,25 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Web-App-Dashboard/scss/components/_searchbar.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="528">
+          <caret line="40" column="0" selection-start-line="40" selection-start-column="0" selection-end-line="44" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Web-App-Dashboard/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="858">
+          <caret line="216" column="14" selection-start-line="216" selection-start-column="14" selection-end-line="216" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Web-App-Dashboard/scss/components/_members.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
+        <state relative-caret-position="-582">
           <caret line="25" column="24" selection-start-line="25" selection-start-column="24" selection-end-line="25" selection-end-column="24" />
           <folding />
         </state>
@@ -779,16 +765,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Web-App-Dashboard/scss/components/_message.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Web-App-Dashboard/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="498">
-          <caret line="159" column="23" selection-start-line="159" selection-start-column="23" selection-end-line="159" selection-end-column="23" />
+        <state relative-caret-position="153">
+          <caret line="91" column="14" selection-start-line="91" selection-start-column="14" selection-end-line="91" selection-end-column="14" />
           <folding />
         </state>
       </provider>
