@@ -56,26 +56,26 @@
   width: 95%;
   margin: auto;
   padding-bottom: 80px;
-  border-bottom: 2px solid $borderGrey;
+  border-bottom: $generic-border;
   height: 50vh;
 }
 
 .bar-chart-div {
   margin: 0 2.5%;
   width: 90%;
-  border-bottom: 2px solid $borderGrey;
+  border-bottom: $generic-border;
   @include tablet {
     margin: 0 0 0 2.5%;
     width: 46%;
     display: inline-block;
-    border-right: 2px solid $borderGrey;
+    border-right: $generic-border;
   }
 }
 
 .pie-chart-div {
   width: 90%;
   margin: 0 2.5%;
-  border-bottom: 2px solid $borderGrey;
+  border-bottom: $generic-border;
   @include tablet {
     display: inline-block;
     float: right;

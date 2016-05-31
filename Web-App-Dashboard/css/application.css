@@ -8,6 +8,9 @@ p {
 .strong {
   font-weight: 700; }
 
+.clearfix {
+  overflow: auto; }
+
 header h1, header h2 {
   color: white;
   font-family: 'Quicksand', sans-serif;
@@ -386,6 +389,63 @@ nav .selected img {
   top: 50%;
   transform: translateY(-50%);
   position: absolute;
-  right: 20px; }
+  right: -10px; }
+
+#message-user-div {
+  height: 385px;
+  border-bottom: 2px solid #ECECEC;
+  text-align: center;
+  width: 95%;
+  margin: 0 2.5%; }
+  #message-user-div h2 {
+    color: #8d8d8d;
+    margin-right: auto;
+    font-size: 1.2em; }
+  @media screen and (min-width: 768px) {
+    #message-user-div {
+      display: inline-block;
+      width: 44.5%;
+      border-right: 2px solid #ECECEC;
+      padding-right: 2.5%; } }
+
+fieldset {
+  border: none; }
+
+#search-bar-two, textarea, #message-user-div button {
+  min-width: 250px;
+  width: 60%;
+  border-radius: 5px;
+  font-size: 0.9em;
+  border: 1px solid #ECECEC;
+  transition: background .50s ease, color .50s ease;
+  margin-bottom: 20px; }
+  @media screen and (min-width: 768px) {
+    #search-bar-two, textarea, #message-user-div button {
+      margin-right: 20px; } }
+
+#message-user-div button {
+  color: white;
+  background: #7479BD;
+  height: 45px;
+  width: 65%; }
+
+#search-bar-two {
+  height: 45px;
+  color: #5c5c5c;
+  background: #FBFBFB;
+  padding-left: 5%; }
+
+textarea {
+  padding-left: 5%;
+  height: 140px;
+  padding-top: 15px;
+  color: #5c5c5c;
+  background: #FBFBFB; }
+
+#search-bar-two:hover, #search-bar-two:active, #search-bar-two:focus,
+textarea:hover, textarea:active, textarea:focus {
+  outline: none;
+  background: #abaed7;
+  color: white; }
 
 /*# sourceMappingURL=application.css.map */
