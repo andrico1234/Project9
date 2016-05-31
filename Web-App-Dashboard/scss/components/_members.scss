@@ -1,31 +1,55 @@
-#new-members-div {
-  height: 65vh;
+#new-members-div, #recent-activity-div {
+  height: 385px;
   border-bottom: 2px solid $borderGrey;
   text-align: center;
   width: 95%;
   margin: 0 2.5%;
-  //@include tablet {
-  //  height: 45vh;
-  //}
-  //@include desktop {
-  //  height: 25vh;
-  //}
+  @include tablet {
+    width: 44.5%;
+    text-align: left;
+  }
   h2 {
     color: $mediumGrey;
     display: block;
     padding: 0 10px;
     font-size: 1.3em;
+    @include tablet {
+      padding-left: 12px;
+    }
   }
 }
 
-.new-member {
-  width: 70%;
-  height: 13%;
+#new-members-div {
+  @include tablet {
+    float: left;
+    margin-right: 0;
+    padding-right: 2.5%;
+    border-right: 2px solid $borderGrey;
+  }
+}
+
+#recent-activity-div {
+  @include tablet {
+    float: right;
+  }
+}
+
+.new-member:last-child, .recent-activity:last-child {
+  border-bottom: none;
+}
+
+.new-member, .recent-activity {
+  width: 85%;
+  height: 70px;
   margin: auto;
   padding-top: 12px;
   border-bottom: 2px solid $borderGrey;
   font-family: "Helvetica Neue", sans-serif;
   font-weight: 300;
+  position: relative;
+  @include tablet {
+    width: 95%;
+  }
   img {
     width: 20%;
     max-width: 50px;
@@ -34,7 +58,7 @@
   }
 }
 
-.new-members-name, .new-members-date, .new-members-email {
+.new-members-name, .new-members-date, .new-members-email, .recent-activity-name, .recent-activity-time {
   display: inline-block;
   font-weight: 400;
   color: $mediumGrey;
@@ -45,7 +69,13 @@
   padding-left: 20px;
   font-size: 0.9em;
   margin: 0;
-  //margin-right: 5%;
+}
+
+.recent-activity-name {
+  float: left;
+  padding-left: 20px;
+  font-size: 0.7em;
+  margin: 0;
 }
 
 .new-members-date {
@@ -54,7 +84,7 @@
   margin: 0;
 }
 
-.new-members-email {
+.new-members-email, .recent-activity-time {
   padding-left: 20px;
   float: left;
   margin-top: 0;
@@ -64,4 +94,11 @@
     color: $lightPurple;
     text-decoration: none;
   }
+}
+
+.activity-arrow {
+  width: 15px;
+  @include vertical_align;
+  position: absolute;
+  right: 20px;
 }
