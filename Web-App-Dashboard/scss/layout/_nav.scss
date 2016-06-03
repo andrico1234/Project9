@@ -6,9 +6,14 @@
   justify-content: space-between;
   height: 60px;
   z-index: 0;
+  a {
+
+  }
   a img {
     width: 30px;
     padding: 15px 25px;
+    opacity: 0.4;
+    transition: opacity .25s ease-in-out;
   }
   @include tablet {
     flex-direction: column;
@@ -35,12 +40,27 @@ nav a:first-child {
   }
 }
 
-nav a img {
-  opacity: 0.4;
+nav a img:hover {
+  opacity: 1;
 }
 
 nav .selected img {
   opacity: 1;
-  border-left: 3px solid $green;
-  border-top-left-radius: -25px;
+  border-top: 3px solid $green;
+  //border-top-left-radius: -25px;
+  @include tablet {
+    border-left: 3px solid $green;
+    border-top: none;
+  }
 }
+
+#select-graph-list {
+  list-style: none;
+  li, h3 {
+    display: inline;
+  }
+  h3:hover {
+    cursor: pointer;
+  }
+}
+

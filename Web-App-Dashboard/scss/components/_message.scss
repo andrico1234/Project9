@@ -22,8 +22,11 @@
 }
 
 #settings-div {
+  margin: auto;
   @include tablet {
-    float: right;
+    @-moz-document url-prefix() {
+      float: right;
+    }
     border-right: none;
   }
   button {
@@ -121,7 +124,7 @@ strong {
   min-width: 250px;
   height: 45px;
   margin-top: 20px;
-  width: 90%;
+  width: 100%;
   border-radius: 5px;
   font-size: 0.9em;
   border: 1px solid $borderGrey;
@@ -129,6 +132,8 @@ strong {
   color: $darkGrey;
 }
 
-#save-button {
-  background: $lightPurple;
+#message-prompt {
+  color: $darkGrey;
+  margin-top: 0;
+  padding: 0 10px 0 0;
 }

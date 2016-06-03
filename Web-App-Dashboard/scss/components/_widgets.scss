@@ -52,6 +52,27 @@
   }
 }
 
+#select-graph-list {
+  list-style: none;
+  li, h3 {
+    display: inline-block;
+  }
+  h3 {
+    width: 51px;
+  }
+  li {
+    text-align: center;
+  }
+  .graph-selected {
+    border: 2px solid $green;
+    background: $green;
+    color: white;
+    border-radius: 10px;
+  }
+}
+
+
+
 .line-chart-div {
   width: 95%;
   margin: auto;

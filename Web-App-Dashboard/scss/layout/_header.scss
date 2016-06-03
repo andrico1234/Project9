@@ -41,15 +41,87 @@ header h1, header h2 {
   height: 40px;
   width: 40px;
   @include tablet {
-     padding: 0 20px;
+    padding: 0 20px;
   }
 }
 
 .alert-icon {
   width: 30px;
+  transition: opacity .25s ease-in-out;
   @include tablet {
     border-right: 1px solid $borderGrey;
     margin: 10px 0;
     padding: 0 20px;
   }
+}
+
+.ball {
+  display: block;
+  width: 10px;
+  height: 10px;
+  margin: 0;
+  background-color: $green;
+  border-radius: 50%;
+  position: absolute;
+  top: 18px;
+  right: 56px;
+  @include tablet {
+    right: 315px;
+  }
+}
+
+.alert-icon:hover {
+  opacity: 0.7;
+}
+
+// notification drop down
+
+#notification-div {
+  position: absolute;
+  top: 70px;
+  right: 40px;
+  background: $lightGrey;
+  border: $generic-border;
+  width: 220px;
+  opacity: 0.9;
+  @include tablet() {
+    right: 125px;
+  }
+  img {
+    width: 20%;
+    margin-left: 5px;
+    max-width: 70px;
+    border-radius: 10px;
+    float: left;
+    @include vertical_align;
+  }
+  h3 {
+    font-size: 0.7em;
+    margin: 0 0 0 60px;
+    color: $darkGrey;
+    font-family: "Helvetica Neue", sans-serif;
+    @include vertical_align;
+  }
+  .notifications {
+    border-bottom: $generic-border;
+    height: 60px;
+  }
+  .notification-div-header {
+    height: 25px;
+    background: $lightPurple;
+  }
+  .notification-header {
+    color: white;
+    margin: 0 0 0 20px;
+  }
+}
+
+.notifications:hover {
+  background: white;
+  opacity: 1;
+}
+
+.notification-div-header {
+  height: 20px;
+  background: $lightPurple;
 }
