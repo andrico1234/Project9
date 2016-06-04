@@ -9,6 +9,7 @@
     <link href="css/toggle-switch.css" rel="stylesheet" type="text/css"/>
     <link href="css/application.css" rel="stylesheet" type="text/css"/>
     <script src="js/jquery-2.2.3.min.js" type="text/javascript"></script>
+    <script src="js/jquery-ui.min.js" type="text/javascript"></script>
     <script src="js/Chart.min.js" type="text/javascript"></script>
 </head>
 <body>
@@ -184,7 +185,9 @@
         <h2 id="message-user-header">Message User</h2>
         <form class="message-form" action="index.html" method="POST">
             <fieldset class="search-message">
-                <input id="search-bar-two" type="search" placeholder="Search for User"><br>
+                <div class="ui-widget">
+                    <input id="search-bar-two" placeholder="Search for User">
+                </div>
                 <textarea id="message-for-user" name="message" placeholder="Message for User"></textarea><br>
                 <p id="message-prompt"></p>
                 <button type="button" id="submit-message">Send</button>
@@ -195,7 +198,7 @@
         <h2 id="user-settings-header">Settings</h2>
         <div id="settings">
             <label class="switch-light switch-ios" onclick="">
-                <input type="checkbox">
+                <input id="email" type="checkbox">
                 <strong>Send Email Notifications</strong>
   <span class="switch-button">
     <span>Off</span>
@@ -204,7 +207,7 @@
   </span>
             </label>
             <label class="switch-light switch-ios" onclick="">
-                <input type="checkbox">
+                <input id="public" type="checkbox">
                 <strong>Set Profile to Public</strong>
   <span class="switch-button">
     <span>Off</span>

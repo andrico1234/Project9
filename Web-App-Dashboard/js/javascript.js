@@ -11,7 +11,8 @@ var $navBarAnchor = $(".main-nav").children("a");
 var $lineChartNav = $("#select-graph-list").children("li").children("h3");
 var $lineChartDisplay = $(".line-chart-div").children("canvas");
 var $submitMessage = $(document.getElementById("submit-message"));
-  
+
+
 $notificationDiv.hide();
 
 // graph function
@@ -50,16 +51,76 @@ $navBarAnchor.click(function () {
     $(this).addClass("selected");
 });
 
+// autocomplete
+
+$(function () {
+    var availableTags = [
+        "Damon Yorke",
+        "Dave Bellamy",
+        "Megan Mossheart",
+        "Florence Tonra"
+    ];
+    $("#search-bar-two").autocomplete({
+        source: availableTags
+    });
+});
+
+// local storage
+
+
+// when the page loads I want to look for the values set in localStorage(""). then assign the
+
+function loadStyles() {
+
+    var isTrueEmail = (localStorage.email === 'true');
+    $("#email").prop("checked", isTrueEmail);
+
+    var isTruePublic = (localStorage.public === 'true');
+    $("#public").prop("checked", isTruePublic);
+
+    $("#select-timezone").val(localStorage.timezone);
+
+};
+
+function setStyles() {
+
+    localStorage.email = $("#email").prop("checked");
+    localStorage.public = $("#public").prop("checked");
+    localStorage.timezone = $("#select-timezone").val();
+
+};
+
+function cancelStyles() {
+    $("#email").prop("checked", false);
+    $("#public").prop("checked", false);
+    $("#select-timezone").val(0);
+    setStyles();
+
+};
+
+loadStyles();
+
+$("#save-button").click(function () {
+    setStyles();
+});
+
+$("#cancel-button").click(function () {
+    cancelStyles();
+});
 
 // line chart nav
 
+$lineChartNav.click(function () {
+    $lineChartNav.removeClass("graph-selected");
+    $(this).addClass("graph-selected");
+});
 
 // submit message
 
-$submitMessage.click(function() {
-   if (document.getElementById("message-for-user").value == "") {
-       $("#message-prompt").text("Please enter a message");
-   } else {
-       $("#message-prompt").text("Your message has been sent");
-   }
+$submitMessage.click(function () {
+    if (document.getElementById("message-for-user").value == "") {
+        $("#message-prompt").text("Please enter a message");
+    } else {
+        $("#message-prompt").text("Your message has been sent");
+    }
 });

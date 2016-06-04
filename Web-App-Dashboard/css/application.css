@@ -534,6 +534,9 @@ nav .selected img {
     top: 50%;
     transform: translateY(-50%); }
 
+#save-button {
+  background: #7479BD; }
+
 fieldset {
   border: none; }
 
@@ -608,5 +611,20 @@ strong {
   color: #5c5c5c;
   margin-top: 0;
   padding: 0 10px 0 0; }
+
+.ui-widget {
+  margin: 0; }
+
+#ui-id-1, .ui-helper-hidden-accessible div {
+  display: none; }
+
+.ui-autocomplete {
+  background: #FBFBFB;
+  border: 1px solid #ECECEC;
+  font-size: 0.9em;
+  color: #5c5c5c;
+  width: 120px; }
+  .ui-autocomplete p {
+    padding: 2px; }
 
 /*# sourceMappingURL=application.css.map */

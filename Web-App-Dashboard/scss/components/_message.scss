@@ -54,6 +54,10 @@
   }
 }
 
+#save-button {
+  background: $lightPurple;
+}
+
 fieldset {
   border: none;
 }
@@ -103,7 +107,6 @@ textarea:hover, textarea:active, textarea:focus {
   color: white;
 }
 
-
 strong {
   display: inline-block;
   font-size: 1em;
@@ -136,4 +139,23 @@ strong {
   color: $darkGrey;
   margin-top: 0;
   padding: 0 10px 0 0;
+}
+
+.ui-widget {
+  margin: 0;
+}
+
+#ui-id-1, .ui-helper-hidden-accessible div {
+  display: none;
+}
+
+.ui-autocomplete {
+  background: $lightGrey;
+  border: 1px solid $borderGrey;
+  font-size: 0.9em;
+  color: $darkGrey;
+  width: 120px;
+  p {
+    padding: 2px;
+  }
 }
