@@ -70,7 +70,7 @@ function loadStyles() {
 
     $("#select-timezone").val(localStorage.timezone);
 
-};
+}
 
 function setStyles() {
 
@@ -78,7 +78,7 @@ function setStyles() {
     localStorage.public = $("#public").prop("checked");
     localStorage.timezone = $("#select-timezone").val();
 
-};
+}
 
 function cancelStyles() {
     $("#email").prop("checked", false);
@@ -86,7 +86,7 @@ function cancelStyles() {
     $("#select-timezone").val(0);
     setStyles();
 
-};
+}
 
 loadStyles();
 
@@ -118,7 +118,7 @@ $("#select-graph-list li h3").on("click", function () {
 // submit message
 
 $submitMessage.click(function () {
-    if (document.getElementById("message-for-user").value == "") {
+    if (document.getElementById("message-for-user").value === "") {
         $("#message-prompt").text("Please enter a message");
     } else {
         $("#message-prompt").text("Your message has been sent");

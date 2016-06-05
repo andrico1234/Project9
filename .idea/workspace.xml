@@ -2,12 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="15d446c1-9a44-41bd-91d7-c9ac06103b12" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Web-App-Dashboard/.sass-cache/0f6354724816f391fe01c2beeb3d7370b1c08241/_widgets.scssc" afterPath="$PROJECT_DIR$/Web-App-Dashboard/.sass-cache/0f6354724816f391fe01c2beeb3d7370b1c08241/_widgets.scssc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Web-App-Dashboard/css/application.css" afterPath="$PROJECT_DIR$/Web-App-Dashboard/css/application.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Web-App-Dashboard/css/application.css.map" afterPath="$PROJECT_DIR$/Web-App-Dashboard/css/application.css.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Web-App-Dashboard/index.html" afterPath="$PROJECT_DIR$/Web-App-Dashboard/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Web-App-Dashboard/js/javascript.js" afterPath="$PROJECT_DIR$/Web-App-Dashboard/js/javascript.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Web-App-Dashboard/scss/components/_widgets.scss" afterPath="$PROJECT_DIR$/Web-App-Dashboard/scss/components/_widgets.scss" />
     </list>
     <ignored path="Project9.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -31,8 +27,18 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Web-App-Dashboard/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1260">
-              <caret line="84" column="31" selection-start-line="84" selection-start-column="31" selection-end-line="84" selection-end-column="31" />
+            <state relative-caret-position="450">
+              <caret line="30" column="44" selection-start-line="30" selection-start-column="44" selection-end-line="30" selection-end-column="44" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="application.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Web-App-Dashboard/css/application.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="8850">
+              <caret line="590" column="11" selection-start-line="590" selection-start-column="11" selection-end-line="590" selection-end-column="11" />
               <folding />
             </state>
           </provider>
@@ -41,8 +47,8 @@
       <file leaf-file-name="javascript.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Web-App-Dashboard/js/javascript.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="477">
-              <caret line="112" column="0" selection-start-line="112" selection-start-column="0" selection-end-line="112" selection-end-column="0" />
+            <state relative-caret-position="402">
+              <caret line="109" column="46" selection-start-line="109" selection-start-column="46" selection-end-line="109" selection-end-column="46" />
               <folding>
                 <element signature="e#0#41#0" expanded="false" />
               </folding>
@@ -107,8 +113,8 @@
         <option value="$PROJECT_DIR$/Web-App-Dashboard/js/JavaScriptGraphs.js" />
         <option value="$PROJECT_DIR$/Web-App-Dashboard/scss/components/_message.scss" />
         <option value="$PROJECT_DIR$/Web-App-Dashboard/scss/components/_widgets.scss" />
-        <option value="$PROJECT_DIR$/Web-App-Dashboard/index.html" />
         <option value="$PROJECT_DIR$/Web-App-Dashboard/js/javascript.js" />
+        <option value="$PROJECT_DIR$/Web-App-Dashboard/index.html" />
       </list>
     </option>
   </component>
@@ -392,12 +398,12 @@
       <workItem from="1464706781388" duration="7195000" />
       <workItem from="1464788356680" duration="3352000" />
       <workItem from="1464948503310" duration="14674000" />
-      <workItem from="1464995028666" duration="12711000" />
+      <workItem from="1464995028666" duration="12911000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="88799000" />
+    <option name="totallyTimeSpent" value="88999000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
@@ -755,14 +761,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Web-App-Dashboard/css/application.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="5808">
-          <caret line="612" column="17" selection-start-line="612" selection-start-column="17" selection-end-line="612" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Web-App-Dashboard/scss/components/_searchbar.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="648">
@@ -771,10 +769,18 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Web-App-Dashboard/css/application.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="8850">
+          <caret line="590" column="11" selection-start-line="590" selection-start-column="11" selection-end-line="590" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Web-App-Dashboard/js/javascript.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="477">
-          <caret line="112" column="0" selection-start-line="112" selection-start-column="0" selection-end-line="112" selection-end-column="0" />
+        <state relative-caret-position="402">
+          <caret line="109" column="46" selection-start-line="109" selection-start-column="46" selection-end-line="109" selection-end-column="46" />
           <folding>
             <element signature="e#0#41#0" expanded="false" />
           </folding>
@@ -783,8 +789,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Web-App-Dashboard/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1260">
-          <caret line="84" column="31" selection-start-line="84" selection-start-column="31" selection-end-line="84" selection-end-column="31" />
+        <state relative-caret-position="450">
+          <caret line="30" column="44" selection-start-line="30" selection-start-column="44" selection-end-line="30" selection-end-column="44" />
           <folding />
         </state>
       </provider>
