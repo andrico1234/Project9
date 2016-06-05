@@ -15,16 +15,6 @@ var $submitMessage = $(document.getElementById("submit-message"));
 
 $notificationDiv.hide();
 
-// graph function
-// function graphSelect() {
-//     for (var i = 0; i < $lineChartNav.length; i++) {
-//         if ($lineChartNav[i].hasAttribute("class", "graph-selected")) {
-//             // console.log("for statement run");
-//             $lineChartDisplay[i].removeAttribute("class");
-//         }
-//     }
-// }
-
 // code to hide alert bar.
 
 $alertButton.click(function () {
@@ -114,6 +104,16 @@ $lineChartNav.click(function () {
     $lineChartNav.removeClass("graph-selected");
     $(this).addClass("graph-selected");
 });
+
+// changing the graphs
+
+$("#select-graph-list li h3").on("click", function () {
+    $(".line-chart-div").children("canvas").addClass("hidden");
+    var childIndex = $(this).parent().index();
+    var $canvasDetails = $(".line-chart-div").children("canvas")[childIndex];
+    $canvasDetails.removeAttribute("class");
+});
+
 
 // submit message
 

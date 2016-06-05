@@ -288,10 +288,12 @@ nav .selected img {
   list-style: none; }
   #select-graph-list li, #select-graph-list h3 {
     display: inline-block; }
-  #select-graph-list h3 {
-    width: 51px; }
   #select-graph-list li {
-    text-align: center; }
+    text-align: center;
+    width: 62px; }
+    @media screen and (min-width: 768px) {
+      #select-graph-list li {
+        width: 80px; } }
   #select-graph-list .graph-selected {
     border: 2px solid #83C891;
     background: #83C891;

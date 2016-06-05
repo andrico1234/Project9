@@ -58,10 +58,14 @@
     display: inline-block;
   }
   h3 {
-    width: 51px;
+
   }
   li {
     text-align: center;
+    width: 62px;
+    @include tablet {
+      width: 80px;
+    }
   }
   .graph-selected {
     border: 2px solid $green;
