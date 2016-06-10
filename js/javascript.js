@@ -9,11 +9,25 @@ var $greenBall = $(".ball");
 var $notificationDiv = $("#notification-div");
 var $navBarAnchor = $(".main-nav").children("a");
 var $lineChartNav = $("#select-graph-list").children("li").children("h3");
-var $lineChartDisplay = $(".line-chart-div").children("canvas");
 var $submitMessage = $(document.getElementById("submit-message"));
-
+var $profileName = $(document.getElementById("profile-name"));
 
 $notificationDiv.hide();
+
+function WinResize() {
+    if ($(window).width() < 768) {
+        $profileName.attr("class", "hidden");
+    }
+    else {
+        $profileName.removeAttr("class");
+    }
+}
+
+$(document).ready(WinResize());
+
+$(window).resize(function() {
+    WinResize();
+});
 
 // code to hide alert bar.
 

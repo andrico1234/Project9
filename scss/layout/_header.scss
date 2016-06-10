@@ -24,11 +24,8 @@ header h1, header h2 {
   }
 }
 
-.profile-name {
-  visibility: hidden;
-  width: 0;
+#profile-name {
   @include tablet {
-    visibility: visible;
     width: auto;
     padding: 0 20px;
     margin: 0;

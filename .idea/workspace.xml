@@ -2,115 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="15d446c1-9a44-41bd-91d7-c9ac06103b12" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Web-App-Dashboard/.sass-cache/0f6354724816f391fe01c2beeb3d7370b1c08241/_alert.scssc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Web-App-Dashboard/.sass-cache/0f6354724816f391fe01c2beeb3d7370b1c08241/_index.scssc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Web-App-Dashboard/.sass-cache/0f6354724816f391fe01c2beeb3d7370b1c08241/_members.scssc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Web-App-Dashboard/.sass-cache/0f6354724816f391fe01c2beeb3d7370b1c08241/_message.scssc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Web-App-Dashboard/.sass-cache/0f6354724816f391fe01c2beeb3d7370b1c08241/_searchbar.scssc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Web-App-Dashboard/.sass-cache/0f6354724816f391fe01c2beeb3d7370b1c08241/_socialstats.scssc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Web-App-Dashboard/.sass-cache/0f6354724816f391fe01c2beeb3d7370b1c08241/_widgets.scssc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Web-App-Dashboard/.sass-cache/0f6354724816f391fe01c2beeb3d7370b1c08241/graph.scssc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Web-App-Dashboard/.sass-cache/965e2632a4121ee26f800c311e7656ade95af7af/_base.scssc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Web-App-Dashboard/.sass-cache/965e2632a4121ee26f800c311e7656ade95af7af/_index.scssc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Web-App-Dashboard/.sass-cache/965e2632a4121ee26f800c311e7656ade95af7af/_mixins.scssc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Web-App-Dashboard/.sass-cache/965e2632a4121ee26f800c311e7656ade95af7af/_variables.scssc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Web-App-Dashboard/.sass-cache/cbae407b1d950a71f6a849111c24ef01bec8ccf0/application.scssc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Web-App-Dashboard/.sass-cache/cbae407b1d950a71f6a849111c24ef01bec8ccf0/index.scssc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Web-App-Dashboard/.sass-cache/d1db64a29998c75bdeaa40abf91c544392f9057d/_header.scssc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Web-App-Dashboard/.sass-cache/d1db64a29998c75bdeaa40abf91c544392f9057d/_index.scssc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Web-App-Dashboard/.sass-cache/d1db64a29998c75bdeaa40abf91c544392f9057d/_nav.scssc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Web-App-Dashboard/css/application.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Web-App-Dashboard/css/application.css.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Web-App-Dashboard/css/normalize.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Web-App-Dashboard/css/toggle-switch.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Web-App-Dashboard/dashboard.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Web-App-Dashboard/img/icon-arrow.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Web-App-Dashboard/img/icon-bell.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Web-App-Dashboard/img/icon-cross.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Web-App-Dashboard/img/icon-dashboard.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Web-App-Dashboard/img/icon-face-four.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Web-App-Dashboard/img/icon-face-one.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Web-App-Dashboard/img/icon-face-three.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Web-App-Dashboard/img/icon-face-two.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Web-App-Dashboard/img/icon-facebook.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Web-App-Dashboard/img/icon-facebook2.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Web-App-Dashboard/img/icon-google-plus.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Web-App-Dashboard/img/icon-googleplus2.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Web-App-Dashboard/img/icon-instagram.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Web-App-Dashboard/img/icon-magnifier.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Web-App-Dashboard/img/icon-members.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Web-App-Dashboard/img/icon-pintrest.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Web-App-Dashboard/img/icon-settings.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Web-App-Dashboard/img/icon-twitter.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Web-App-Dashboard/img/icon-twitter2.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Web-App-Dashboard/img/icon-visits.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Web-App-Dashboard/img/profile.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Web-App-Dashboard/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Web-App-Dashboard/js/Chart.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Web-App-Dashboard/js/GraphSrc/chart.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Web-App-Dashboard/js/GraphSrc/charts/Chart.Bar.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Web-App-Dashboard/js/GraphSrc/charts/Chart.Bubble.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Web-App-Dashboard/js/GraphSrc/charts/Chart.Doughnut.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Web-App-Dashboard/js/GraphSrc/charts/Chart.Line.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Web-App-Dashboard/js/GraphSrc/charts/Chart.PolarArea.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Web-App-Dashboard/js/GraphSrc/charts/Chart.Radar.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Web-App-Dashboard/js/GraphSrc/charts/Chart.Scatter.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Web-App-Dashboard/js/GraphSrc/controllers/controller.bar.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Web-App-Dashboard/js/GraphSrc/controllers/controller.bubble.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Web-App-Dashboard/js/GraphSrc/controllers/controller.doughnut.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Web-App-Dashboard/js/GraphSrc/controllers/controller.line.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Web-App-Dashboard/js/GraphSrc/controllers/controller.polarArea.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Web-App-Dashboard/js/GraphSrc/controllers/controller.radar.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Web-App-Dashboard/js/GraphSrc/core/core.animation.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Web-App-Dashboard/js/GraphSrc/core/core.controller.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Web-App-Dashboard/js/GraphSrc/core/core.datasetController.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Web-App-Dashboard/js/GraphSrc/core/core.element.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Web-App-Dashboard/js/GraphSrc/core/core.helpers.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Web-App-Dashboard/js/GraphSrc/core/core.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Web-App-Dashboard/js/GraphSrc/core/core.layoutService.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Web-App-Dashboard/js/GraphSrc/core/core.legend.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Web-App-Dashboard/js/GraphSrc/core/core.plugin.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Web-App-Dashboard/js/GraphSrc/core/core.scale.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Web-App-Dashboard/js/GraphSrc/core/core.scaleService.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Web-App-Dashboard/js/GraphSrc/core/core.title.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Web-App-Dashboard/js/GraphSrc/core/core.tooltip.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Web-App-Dashboard/js/GraphSrc/elements/element.arc.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Web-App-Dashboard/js/GraphSrc/elements/element.line.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Web-App-Dashboard/js/GraphSrc/elements/element.point.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Web-App-Dashboard/js/GraphSrc/elements/element.rectangle.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Web-App-Dashboard/js/GraphSrc/scales/scale.category.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Web-App-Dashboard/js/GraphSrc/scales/scale.linear.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Web-App-Dashboard/js/GraphSrc/scales/scale.logarithmic.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Web-App-Dashboard/js/GraphSrc/scales/scale.radialLinear.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Web-App-Dashboard/js/GraphSrc/scales/scale.time.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Web-App-Dashboard/js/JavaScriptGraphs.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Web-App-Dashboard/js/javascript.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Web-App-Dashboard/js/jquery-2.2.3.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Web-App-Dashboard/js/jquery-ui.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Web-App-Dashboard/scss/application.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Web-App-Dashboard/scss/base/_base.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Web-App-Dashboard/scss/base/_index.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Web-App-Dashboard/scss/base/_mixins.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Web-App-Dashboard/scss/base/_variables.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Web-App-Dashboard/scss/components/_alert.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Web-App-Dashboard/scss/components/_index.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Web-App-Dashboard/scss/components/_members.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Web-App-Dashboard/scss/components/_message.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Web-App-Dashboard/scss/components/_searchbar.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Web-App-Dashboard/scss/components/_socialstats.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Web-App-Dashboard/scss/components/_widgets.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Web-App-Dashboard/scss/layout/_header.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Web-App-Dashboard/scss/layout/_index.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Web-App-Dashboard/scss/layout/_nav.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web_app_dashboard_v2/icons/icon-bell.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web_app_dashboard_v2/icons/icon-dashboard.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web_app_dashboard_v2/icons/icon-facebook.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web_app_dashboard_v2/icons/icon-google-plus.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web_app_dashboard_v2/icons/icon-members.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web_app_dashboard_v2/icons/icon-settings.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web_app_dashboard_v2/icons/icon-twitter.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web_app_dashboard_v2/icons/icon-visits.svg" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/application.css" afterPath="$PROJECT_DIR$/css/application.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/application.css.map" afterPath="$PROJECT_DIR$/css/application.css.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/normalize.css" afterPath="$PROJECT_DIR$/css/normalize.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/javascript.js" afterPath="$PROJECT_DIR$/js/javascript.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/scss/components/_widgets.scss" afterPath="$PROJECT_DIR$/scss/components/_widgets.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/scss/layout/_header.scss" afterPath="$PROJECT_DIR$/scss/layout/_header.scss" />
     </list>
     <ignored path="Project9.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -134,18 +33,78 @@
       <file leaf-file-name="javascript.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/js/javascript.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="449">
-              <caret line="114" column="3" selection-start-line="114" selection-start-column="3" selection-end-line="114" selection-end-column="3" />
+            <state relative-caret-position="172">
+              <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="11" column="29" selection-start-line="11" selection-start-column="29" selection-end-line="11" selection-end-column="29" />
+            <state relative-caret-position="277">
+              <caret line="30" column="52" selection-start-line="30" selection-start-column="52" selection-end-line="30" selection-end-column="52" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="application.css" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/css/application.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="405">
+              <caret line="27" column="16" selection-start-line="27" selection-start-column="16" selection-end-line="27" selection-end-column="16" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="_alert.scss" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/scss/components/_alert.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="375">
+              <caret line="25" column="21" selection-start-line="25" selection-start-column="21" selection-end-line="25" selection-end-column="21" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="_mixins.scss" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/scss/base/_mixins.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="JavaScriptGraphs.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/js/JavaScriptGraphs.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-2703">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="_widgets.scss" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/scss/components/_widgets.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="453">
+              <caret line="100" column="11" selection-start-line="100" selection-start-column="11" selection-end-line="100" selection-end-column="11" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="_variables.scss" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/scss/base/_variables.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -190,6 +149,11 @@
         <option value="$PROJECT_DIR$/Web-App-Dashboard/scss/components/_widgets.scss" />
         <option value="$PROJECT_DIR$/Web-App-Dashboard/js/javascript.js" />
         <option value="$PROJECT_DIR$/Web-App-Dashboard/index.html" />
+        <option value="$PROJECT_DIR$/scss/layout/_header.scss" />
+        <option value="$PROJECT_DIR$/js/javascript.js" />
+        <option value="$PROJECT_DIR$/scss/components/_message.scss" />
+        <option value="$PROJECT_DIR$/scss/components/_widgets.scss" />
+        <option value="$PROJECT_DIR$/index.html" />
       </list>
     </option>
   </component>
@@ -227,7 +191,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
@@ -257,21 +220,105 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="scss" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Project9" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Project9" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="scss" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="layout" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Project9" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Project9" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="scss" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="components" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Project9" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Project9" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="scss" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="base" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Project9" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Project9" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="js" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Project9" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Project9" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="css" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../githubio/andrico1234.github.io" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="HbShouldOpenHtmlAsHb" value="" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
+    <property name="FullScreen" value="true" />
   </component>
   <component name="RunManager">
     <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
@@ -356,11 +403,12 @@
       <workItem from="1465302130297" duration="16000" />
       <workItem from="1465387159364" duration="210000" />
       <workItem from="1465460025273" duration="32000" />
+      <workItem from="1465551578413" duration="2281000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="89257000" />
+    <option name="totallyTimeSpent" value="91538000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
@@ -370,18 +418,18 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="1.0" sideWeight="0.50547945" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -400,20 +448,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Web-App-Dashboard/scss/layout/_header.scss" />
-    <entry file="file://$PROJECT_DIR$/Web-App-Dashboard/scss/components/_widgets.scss" />
-    <entry file="file://$PROJECT_DIR$/Web-App-Dashboard/js/JavaScriptGraphs.js" />
-    <entry file="file://$PROJECT_DIR$/Web-App-Dashboard/scss/layout/_nav.scss" />
-    <entry file="file://$PROJECT_DIR$/Web-App-Dashboard/index.html" />
-    <entry file="file://$PROJECT_DIR$/Web-App-Dashboard/scss/base/_base.scss" />
-    <entry file="file://$PROJECT_DIR$/Web-App-Dashboard/scss/base/_variables.scss" />
-    <entry file="file://$PROJECT_DIR$/Web-App-Dashboard/scss/components/_alert.scss" />
-    <entry file="file://$PROJECT_DIR$/Web-App-Dashboard/index.html" />
-    <entry file="file://$PROJECT_DIR$/Web-App-Dashboard/scss/base/_base.scss" />
-    <entry file="file://$PROJECT_DIR$/Web-App-Dashboard/scss/layout/_header.scss" />
-    <entry file="file://$PROJECT_DIR$/Web-App-Dashboard/scss/components/_searchbar.scss" />
-    <entry file="file://$PROJECT_DIR$/Web-App-Dashboard/scss/components/_widgets.scss" />
-    <entry file="file://$PROJECT_DIR$/Web-App-Dashboard/scss/base/_variables.scss" />
     <entry file="file://$PROJECT_DIR$/Web-App-Dashboard/scss/components/_alert.scss" />
     <entry file="file://$PROJECT_DIR$/Web-App-Dashboard/js/JavaScriptGraphs.js" />
     <entry file="file://$PROJECT_DIR$/Web-App-Dashboard/scss/layout/_nav.scss" />
@@ -449,18 +483,130 @@
     <entry file="file://$PROJECT_DIR$/Web-App-Dashboard/css/application.css" />
     <entry file="file://$PROJECT_DIR$/Web-App-Dashboard/js/javascript.js" />
     <entry file="file://$PROJECT_DIR$/Web-App-Dashboard/index.html" />
+    <entry file="file://$PROJECT_DIR$/scss/components/_index.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scss/components/_members.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="217">
+          <caret line="36" column="20" selection-start-line="36" selection-start-column="18" selection-end-line="36" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scss/components/_message.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-9">
+          <caret line="122" column="21" selection-start-line="122" selection-start-column="0" selection-end-line="123" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scss/components/_searchbar.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="531">
+          <caret line="43" column="12" selection-start-line="43" selection-start-column="10" selection-end-line="43" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scss/components/_socialstats.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="3" selection-start-line="2" selection-start-column="2" selection-end-line="2" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scss/layout/_header.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="351">
+          <caret line="110" column="14" selection-start-line="110" selection-start-column="12" selection-end-line="110" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scss/layout/_nav.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="217">
+          <caret line="36" column="15" selection-start-line="36" selection-start-column="13" selection-end-line="36" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scss/layout/_index.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/js/javascript.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="449">
-          <caret line="114" column="3" selection-start-line="114" selection-start-column="3" selection-end-line="114" selection-end-column="3" />
+        <state relative-caret-position="172">
+          <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scss/components/_alert.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="25" column="21" selection-start-line="25" selection-start-column="21" selection-end-line="25" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scss/base/_mixins.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/JavaScriptGraphs.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2703">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scss/base/_variables.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scss/components/_widgets.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="453">
+          <caret line="100" column="11" selection-start-line="100" selection-start-column="11" selection-end-line="100" selection-end-column="11" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="29" selection-start-line="11" selection-start-column="29" selection-end-line="11" selection-end-column="29" />
+        <state relative-caret-position="277">
+          <caret line="30" column="52" selection-start-line="30" selection-start-column="52" selection-end-line="30" selection-end-column="52" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/application.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="27" column="16" selection-start-line="27" selection-start-column="16" selection-end-line="27" selection-end-column="16" />
           <folding />
         </state>
       </provider>
