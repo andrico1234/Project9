@@ -134,6 +134,8 @@ $("#select-graph-list li h3").on("click", function () {
 $submitMessage.click(function () {
     if (document.getElementById("message-for-user").value === "") {
         $("#message-prompt").text("Please enter a message");
+    } else if ($("#search-bar-two").val() === "") {
+        $("#message-prompt").text("Please select a user");
     } else {
         $("#message-prompt").text("Your message has been sent");
     }
