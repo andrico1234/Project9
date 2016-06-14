@@ -441,6 +441,11 @@ nav .selected img {
     max-width: 50px;
     border-radius: 10px;
     float: left; }
+  .new-member .activity-svg, .recent-activity .activity-svg {
+    position: absolute;
+    width: 15px;
+    border-radius: 0;
+    padding-left: 10px; }
 
 .new-members-name, .new-members-date, .new-members-email, .recent-activity-name, .recent-activity-time {
   display: inline-block;
